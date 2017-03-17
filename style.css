@@ -51,7 +51,60 @@ table {
 
 header {
   background-image: url('skyline.jpg');
-  height: 300px;
+  height: 260px;
   background-size: cover;
   background-position: bottom;
+}
+
+.main {
+
+  overflow: auto;
+  width: 700px;
+  margin: 0 auto 0 auto;
+}
+
+.sidebar {
+  min-height: 200px;
+  background-color: pink;
+  float: left;
+  width: 30%
+}
+
+.blog {
+  min-height: 200px;
+  background-color: gray;
+  float: left;
+  width: 70%
+}
+
+.blog-text-block {
+  margin-left: 10px;
+}
+
+h1 {
+  color: #30373d;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 38px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  line-height: 1.16667;
+}
+
+.byline {
+  font-style: italic;
+  margin: 20px 0;
+
+}
+
+
+
+
+
+h2 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: gray;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
