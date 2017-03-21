@@ -49,16 +49,28 @@ table {
 
 
 
+
+
+@font-face {
+  font-family: Open-Sans;
+  src: url("OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: Open-Sans;
+  src: url("OpenSans-Bold.ttf");
+	font-weight: bold;
+}
+
 header {
   background-image: url('skyline.jpg');
   height: 260px;
   background-size: cover;
   background-position: bottom;
+
 }
 
 .main {
-
-  overflow: auto;
   width: 700px;
   margin: 0 auto 0 auto;
 }
@@ -67,7 +79,46 @@ header {
   min-height: 200px;
   background-color: pink;
   float: left;
-  width: 30%
+  width: 25%;
+}
+
+#logo {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	border: solid 4px white;
+	background-color: #222020;
+	margin: -25px auto 0 auto;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: bold;
+	font-size: 14px;
+  color: #71716E;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+p {
+	color: #bab9b9;
+}
+
+.sidebar hr {
+  border: 0;
+  border-top: 1px solid #E0E0E0;
+	width: 150px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: bold;
+	font-size: 12px;
+  color: #bab9b9;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .blog {
@@ -84,10 +135,11 @@ header {
 h1 {
   color: #30373d;
   font-family: 'Open-Sans', sans-serif;
-  font-size: 38px;
+  font-size: 30px;
   letter-spacing: -1px;
   font-weight: bold;
   line-height: 1.16667;
+	margin-top: 75px;
 }
 
 .byline {
@@ -96,15 +148,27 @@ h1 {
 
 }
 
+.follow-box {
+	outline: solid 1px black;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	width: 225px;
+}
 
+h4 {
+	font-family: 'Open-Sans', sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	line-height: 0;
+}
 
-
-
-h2 {
-  text-transform: uppercase;
-  font-family: sans-serif;
-  font-weight: bold;
-  color: gray;
-  margin-top: 50px;
-  margin-bottom: 10px;
+.close {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	font-weight: bold;
+	color: #bbbbbb;
 }
