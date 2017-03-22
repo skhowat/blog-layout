@@ -1,0 +1,13 @@
+
+@font-face {
+  font-family: Open-Sans;
+  src: url("OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: Open-Sans;
+  src: url("OpenSans-Bold.ttf");
+	font-weight: bold;
+}
+
+$font-stack: "Open-Sans", sans-serif;
